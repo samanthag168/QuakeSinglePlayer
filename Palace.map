@@ -8282,3 +8282,13 @@
 "classname" "weapon_supershotgun"
 "origin" "304 -6112 64"
 }
+// entity 139
+{
+"classname" "item_health"
+"origin" "2800 -7024 208"
+}
+// entity 140
+{
+"classname" "item_shells"
+"origin" "2800 -7664 208"
+}
