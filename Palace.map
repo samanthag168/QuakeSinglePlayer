@@ -6534,6 +6534,7 @@
 {
 "classname" "func_door_secret"
 "targetname" "secretd"
+"angle" "0"
 // brush 0
 {
 ( -1440 -6800 352 ) ( -1440 -6800 208 ) ( -1440 -6672 208 ) 128_grey_2 [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 1 1
@@ -8061,7 +8062,7 @@
 "classname" "trigger_counter"
 "origin" "-1512 -6584 408"
 "targetname" "unlock1"
-"count" "5"
+"count" "1"
 "target" "secretd"
 }
 // entity 118
@@ -8070,6 +8071,7 @@
 "origin" "-2248 -6376 536"
 "targetname" "counter4"
 "target" "spawn3"
+"count" "1"
 }
 // entity 119
 {
@@ -8117,22 +8119,22 @@
 {
 "classname" "monster_enforcer"
 "origin" "-1408 -6576 232"
-"target" "counter3, unlock1"
-"targetname" "monster"
+"target" "counter3"
+"targetname" ""
 }
 // entity 126
 {
 "classname" "monster_army"
 "origin" "-1472 -6416 232"
 "target" "counter3"
-"targetname" "monster"
+"targetname" ""
 }
 // entity 127
 {
 "classname" "monster_enforcer"
 "origin" "-1424 -6272 232"
 "target" "counter3"
-"targetname" "monster"
+"targetname" ""
 }
 // entity 128
 {
@@ -8200,6 +8202,7 @@
 }
 // entity 136
 {
-"classname" "info_player_start"
-"origin" "240 80 8"
+"classname" "item_sigil"
+"origin" "-1664 -6368 232"
+"target" "unlock1"
 }
