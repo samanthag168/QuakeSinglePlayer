@@ -6730,19 +6730,19 @@
 // entity 25
 {
 "classname" "monster_army"
-"origin" "384 -5312 88"
-"angle" "90"
+"origin" "384 -5392 88"
+"angle" "270"
 }
 // entity 26
 {
 "classname" "monster_army"
-"origin" "192 -5312 88"
-"angle" "90"
+"origin" "208 -5392 88"
+"angle" "270"
 }
 // entity 27
 {
 "classname" "monster_enforcer"
-"origin" "304 -5184 88"
+"origin" "304 -5248 88"
 "angle" "90"
 }
 // entity 28
