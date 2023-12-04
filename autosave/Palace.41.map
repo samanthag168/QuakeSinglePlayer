@@ -6534,6 +6534,7 @@
 {
 "classname" "func_door_secret"
 "targetname" "secretd"
+"angle" "0"
 // brush 0
 {
 ( -1440 -6800 352 ) ( -1440 -6800 208 ) ( -1440 -6672 208 ) 128_grey_2 [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 1 1
@@ -7790,7 +7791,7 @@
 "spawnflags" "16"
 "wait" "3"
 "angle" "0"
-"message" "You need the silver key"
+"message" ""
 "sounds" "3"
 // brush 0
 {
@@ -8185,7 +8186,7 @@
 {
 "classname" "func_door"
 "spawnflags" "8"
-"message" "You need the gold key"
+"message" ""
 "target" ""
 "angle" "90"
 // brush 0
@@ -8197,4 +8198,9 @@
 ( 2112 -7008 560 ) ( 2112 -7008 272 ) ( 2240 -7008 272 ) 128_grey_3 [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
 ( 2128 -6976 272 ) ( 2128 -6976 273 ) ( 2128 -6975 272 ) 128_grey_3 [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
 }
+}
+// entity 136
+{
+"classname" "info_player_start"
+"origin" "240 80 8"
 }

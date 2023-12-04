@@ -5,7 +5,7 @@
 "mapversion" "220"
 "classname" "worldspawn"
 "_tb_def" "builtin:Quake.fgd"
-"wad" "C:/Users/407305/Downloads/quakedev/quake-leveldesign-starterkit-1.17.0/wads/prototype_1_3.wad;C:/Users/407305/Downloads/quakedev/quake-leveldesign-starterkit-1.17.0/wads/alice.wad;C:/Users/16308/Downloads/quakedev/quakedev/quake-leveldesign-starterkit-1.17.0/wads/prototype_1_3.wad;C:/Users/16308/Downloads/quakedev/quakedev/quake-leveldesign-starterkit-1.17.0/wads/alice.wad"
+"wad" "C:/Users/407305/Downloads/quakedev/quake-leveldesign-starterkit-1.17.0/wads/prototype_1_3.wad;C:/Users/407305/Downloads/quakedev/quake-leveldesign-starterkit-1.17.0/wads/alice.wad;C:/Users/16308/Downloads/quakedev/quakedev/quake-leveldesign-starterkit-1.17.0/wads/prototype_1_3.wad;C:/Users/16308/Downloads/quakedev/quakedev/quake-leveldesign-starterkit-1.17.0/wads/alice.wad;C:/Users/16308/Downloads/quakedev/quakedev/quake-leveldesign-starterkit-1.17.0/wads/jf1.wad"
 "targetname" "trigger"
 // brush 0
 {
@@ -6623,7 +6623,7 @@
 {
 "classname" "func_door"
 "angle" "0"
-"wait" "5"
+"wait" "-1"
 "spawnflags" "0"
 "sounds" "3"
 "speed" "100"
@@ -6642,7 +6642,7 @@
 {
 "classname" "func_door"
 "angle" "180"
-"wait" "5"
+"wait" "-1"
 "spawnflags" "0"
 "lip" "8"
 "speed" "100"
@@ -8313,25 +8313,20 @@
 }
 // entity 134
 {
-"classname" "info_player_start"
-"origin" "352 96 8"
-}
-// entity 135
-{
 "classname" "weapon_supershotgun"
 "origin" "304 -6112 64"
 }
-// entity 136
+// entity 135
 {
 "classname" "item_health"
 "origin" "2800 -7024 208"
 }
-// entity 137
+// entity 136
 {
 "classname" "item_shells"
 "origin" "2800 -7664 208"
 }
-// entity 138
+// entity 137
 {
 "classname" "path_corner"
 "origin" "-24 -3224 24"
@@ -8339,25 +8334,25 @@
 "targetname" "ps1"
 "target" "ps2"
 }
-// entity 139
+// entity 138
 {
 "classname" "path_corner"
 "origin" "472 -3224 24"
 "targetname" "ps2"
 }
-// entity 140
+// entity 139
 {
 "classname" "weapon_supershotgun"
 "origin" "432 -2960 -32"
 }
-// entity 141
+// entity 140
 {
 "classname" "weapon_supernailgun"
 "origin" "-1664 -6416 208"
 "angle" "270"
 "target" "unlock1"
 }
-// entity 142
+// entity 141
 {
 "classname" "func_door_secret"
 "targetname" "secretdoor"
@@ -8372,11 +8367,12 @@
 ( -1328 -6752 224 ) ( -1328 -6752 225 ) ( -1328 -6751 224 ) 128_blood_1 [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
 }
 }
-// entity 143
+// entity 142
 {
 "classname" "func_door_secret"
 "angle" "90"
 "targetname" "hedged"
+"wait" "-1"
 // brush 0
 {
 ( 496 -3024 -48 ) ( 496 -3023 -48 ) ( 496 -3024 -47 ) 128_brown_3 [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 1 1
@@ -8387,17 +8383,28 @@
 ( 512 -2880 -32 ) ( 512 -2880 -31 ) ( 512 -2879 -32 ) 128_brown_3 [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
 }
 }
-// entity 144
+// entity 143
 {
 "classname" "func_button"
 "target" "hedged"
+"angle" "90"
+"lip" "2"
+"wait" "-1"
+"health" "2"
+"sounds" "0"
 // brush 0
 {
-( 528 -2896 0 ) ( 528 -2895 0 ) ( 528 -2896 1 ) 128_blood_1 [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 1 1
-( 528 -2896 0 ) ( 528 -2896 1 ) ( 529 -2896 0 ) +0button_0 [ 1 0 0 -16 ] [ 0 0 -1 -16 ] 0 1 1
-( 528 -2896 -16 ) ( 529 -2896 -16 ) ( 528 -2895 -16 ) 128_blood_1 [ -1 0 0 16 ] [ 0 -1 0 0 ] 0 1 1
-( 560 -2880 16 ) ( 560 -2879 16 ) ( 561 -2880 16 ) 128_blood_1 [ 1 0 0 -16 ] [ 0 -1 0 0 ] 0 1 1
-( 560 -2880 16 ) ( 561 -2880 16 ) ( 560 -2880 17 ) 128_blood_1 [ -1 0 0 16 ] [ 0 0 -1 0 ] 0 1 1
-( 560 -2880 16 ) ( 560 -2880 17 ) ( 560 -2879 16 ) 128_blood_1 [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 528 -2896 160 ) ( 528 -2895 160 ) ( 528 -2896 161 ) 128_blood_1 [ 0 -1 0 0 ] [ 0 0 -1 32 ] 0 1 1
+( 528 -2884 160 ) ( 528 -2884 161 ) ( 529 -2884 160 ) +0button_0 [ 1 0 0 -16 ] [ 0 0 -1 -16 ] 0 1 1
+( 528 -2896 144 ) ( 529 -2896 144 ) ( 528 -2895 144 ) 128_blood_1 [ -1 0 0 16 ] [ 0 -1 0 0 ] 0 1 1
+( 560 -2880 176 ) ( 560 -2879 176 ) ( 561 -2880 176 ) 128_blood_1 [ 1 0 0 -16 ] [ 0 -1 0 0 ] 0 1 1
+( 560 -2880 176 ) ( 561 -2880 176 ) ( 560 -2880 177 ) 128_blood_1 [ -1 0 0 16 ] [ 0 0 -1 32 ] 0 1 1
+( 560 -2880 176 ) ( 560 -2880 177 ) ( 560 -2879 176 ) 128_blood_1 [ 0 1 0 0 ] [ 0 0 -1 32 ] 0 1 1
 }
+}
+// entity 144
+{
+"classname" "info_player_start"
+"origin" "272 -3744 40"
+"angle" "270"
 }
