@@ -6730,26 +6730,30 @@
 // entity 25
 {
 "classname" "monster_army"
-"origin" "384 -5312 88"
-"angle" "90"
+"origin" "384 -5344 88"
+"angle" "270"
+"target" "path7"
 }
 // entity 26
 {
 "classname" "monster_army"
-"origin" "192 -5312 88"
-"angle" "90"
+"origin" "208 -5344 88"
+"angle" "270"
+"target" "path5"
 }
 // entity 27
 {
 "classname" "monster_enforcer"
-"origin" "304 -5184 88"
-"angle" "90"
+"origin" "304 -5408 88"
+"angle" "270"
+"target" "path9"
 }
 // entity 28
 {
 "classname" "monster_enforcer"
-"origin" "-192 -5504 184"
+"origin" "-192 -5520 184"
 "angle" "90"
+"target" "path3"
 }
 // entity 29
 {
@@ -7348,6 +7352,8 @@
 "classname" "monster_enforcer"
 "origin" "816 -5424 184"
 "angle" "90"
+"targetname" ""
+"target" "path1"
 }
 // entity 45
 {
@@ -7840,8 +7846,9 @@
 // entity 86
 {
 "classname" "monster_knight"
-"origin" "-320 -6400 152"
-"angle" "90"
+"origin" "-192 -6512 152"
+"angle" "180"
+"target" "path11"
 }
 // entity 87
 {
@@ -7850,6 +7857,7 @@
 "wait" "3"
 "angle" "0"
 "message" "You need the silver key"
+"sounds" "3"
 // brush 0
 {
 ( 560 -7024 320 ) ( 560 -7023 320 ) ( 560 -7024 321 ) 128_grey_3 [ 0 -1 0 -16 ] [ 0 0 -1 0 ] 0 1 1
@@ -8020,4 +8028,103 @@
 ( 464 -4704 32 ) ( 465 -4704 32 ) ( 464 -4704 33 ) 128_grey_3 [ -1 0 0 48 ] [ 0 0 -1 0 ] 0 1 1
 ( 512 -4704 32 ) ( 512 -4704 33 ) ( 512 -4703 32 ) 128_grey_3 [ 0 1 0 -80 ] [ 0 0 -1 0 ] 0 1 1
 }
+}
+// entity 103
+{
+"classname" "path_corner"
+"origin" "792 -5176 184"
+"targetname" "path1"
+"target" "path2"
+}
+// entity 104
+{
+"classname" "path_corner"
+"origin" "792 -5528 168"
+"targetname" "path2"
+}
+// entity 105
+{
+"classname" "path_corner"
+"origin" "-200 -5272 184"
+"targetname" "path3"
+"angle" "270"
+"target" "path4"
+}
+// entity 106
+{
+"classname" "path_corner"
+"origin" "-200 -5624 168"
+"targetname" "path4"
+}
+// entity 107
+{
+"classname" "path_corner"
+"origin" "200 -5496 72"
+"targetname" "path5"
+"target" "path6"
+}
+// entity 108
+{
+"classname" "path_corner"
+"origin" "392 -5512 72"
+"targetname" "path7"
+"target" "path8"
+}
+// entity 109
+{
+"classname" "path_corner"
+"origin" "200 -5304 72"
+"targetname" "path6"
+}
+// entity 110
+{
+"classname" "path_corner"
+"origin" "392 -5304 72"
+"targetname" "path8"
+}
+// entity 111
+{
+"classname" "path_corner"
+"origin" "296 -5576 72"
+"targetname" "path9"
+"target" "path10"
+}
+// entity 112
+{
+"classname" "path_corner"
+"origin" "312 -5368 72"
+"targetname" "path10"
+}
+// entity 113
+{
+"classname" "path_corner"
+"origin" "-440 -6504 136"
+"targetname" "path11"
+"target" "path12"
+}
+// entity 114
+{
+"classname" "path_corner"
+"origin" "56 -6520 136"
+"targetname" "path12"
+}
+// entity 115
+{
+"classname" "item_health"
+"origin" "800 -6624 128"
+}
+// entity 116
+{
+"classname" "item_health"
+"origin" "880 -6624 128"
+}
+// entity 117
+{
+"classname" "item_shells"
+"origin" "304 -6608 192"
+}
+// entity 118
+{
+"classname" "item_spikes"
+"origin" "352 -6608 192"
 }
