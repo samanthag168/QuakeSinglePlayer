@@ -7741,7 +7741,7 @@
 "angle" "-1"
 "target" ""
 "targetname" "sdoor"
-"wait" "1"
+"wait" "s"
 // brush 0
 {
 ( 1872 -7200 512 ) ( 1872 -7200 272 ) ( 1872 -7072 272 ) 128_grey_2 [ 0 -1 0 0 ] [ 0 0 -1 -48 ] 0 1 1
@@ -7789,6 +7789,7 @@
 {
 "classname" "func_door"
 "targetname" "pdoor"
+"angle" "90"
 // brush 0
 {
 ( 1360 -8128 320 ) ( 1360 -8127 320 ) ( 1360 -8128 321 ) 128_grey_3 [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 1 1
@@ -8610,7 +8611,7 @@
 {
 "classname" "trigger_counter"
 "origin" "1176 -7960 440"
-"count" "3"
+"count" "2"
 "target" "pdoor"
 "targetname" "portraitc"
 }
@@ -8973,4 +8974,24 @@
 {
 "classname" "weapon_nailgun"
 "origin" "304 -6048 64"
+}
+// entity 166
+{
+"classname" "item_health"
+"origin" "1248 -7680 320"
+}
+// entity 167
+{
+"classname" "item_spikes"
+"origin" "1104 -7696 320"
+}
+// entity 168
+{
+"classname" "item_spikes"
+"origin" "560 -8192 320"
+}
+// entity 169
+{
+"classname" "item_spikes"
+"origin" "1136 -7152 320"
 }
