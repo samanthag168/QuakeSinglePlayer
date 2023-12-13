@@ -9320,7 +9320,7 @@
 {
 "classname" "item_key2"
 "origin" "1904 -7088 296"
-"targetname" "key2"
+"targetname" ""
 "spawnflags" "0"
 }
 // entity 73
@@ -9359,6 +9359,7 @@
 {
 "classname" "func_button"
 "target" "key"
+"wait" "-1"
 // brush 0
 {
 ( 2108 -7294 446 ) ( 2108 -7293 446 ) ( 2108 -7294 447 ) bw_carpet1_2sh [ 0 -1 0 -18602.271 ] [ 0 0 -1 1102.2222 ] 0 0.2812543 0.28125
@@ -10145,7 +10146,6 @@
 {
 "classname" "func_door"
 "angle" "90"
-"target" ""
 "spawnflags" "8"
 // brush 0
 {
@@ -10160,7 +10160,7 @@
 // entity 164
 {
 "classname" "func_door_secret"
-"angle" ""
+"angle" "0"
 "wait" "-1"
 "targetname" "sdoor"
 // brush 0
@@ -10306,31 +10306,4 @@
 {
 "classname" "item_cells"
 "origin" "2416 -7600 208"
-}
-// entity 186
-{
-"classname" "light_torch_small_walltorch"
-"origin" "-4 -3868 156"
-"wait" "2"
-"style" "11"
-}
-// entity 187
-{
-"classname" "light_torch_small_walltorch"
-"origin" "-4 -3868 156"
-"spawnflags" "0"
-"style" "5"
-"wait" "3"
-}
-// entity 188
-{
-"classname" "light_torch_small_walltorch"
-"origin" "540 -3868 156"
-"wait" "2"
-"style" "11"
-}
-// entity 189
-{
-"classname" "light"
-"origin" "24 88 152"
 }

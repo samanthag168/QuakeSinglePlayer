@@ -7,7 +7,7 @@
 "_tb_def" "builtin:Quake.fgd"
 "wad" "C:/Users/407305/Downloads/quakedev/quake-leveldesign-starterkit-1.17.0/wads/prototype_1_3.wad;C:/Users/407305/Downloads/quakedev/quake-leveldesign-starterkit-1.17.0/wads/alice.wad;C:/Users/16308/Downloads/quakedev/quakedev/quake-leveldesign-starterkit-1.17.0/wads/prototype_1_3.wad;C:/Users/16308/Downloads/quakedev/quakedev/quake-leveldesign-starterkit-1.17.0/wads/alice.wad;C:/Users/16308/Downloads/quakedev/quakedev/quake-leveldesign-starterkit-1.17.0/wads/jf1.wad;C:/Users/16308/Downloads/quakedev/quakedev/quake-leveldesign-starterkit-1.17.0/wads/tiles.wad;C:/Users/16308/Downloads/quakedev/quakedev/quake-leveldesign-starterkit-1.17.0/wads/wizard_unused.wad"
 "targetname" "trigger"
-"name" ""
+"sky" "chessky.1tga"
 // brush 0
 {
 ( -48 -64 -32 ) ( -48 -63 -32 ) ( -48 -64 -31 ) grass02_1sh [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 0.75 1
@@ -3930,7 +3930,7 @@
 // brush 438
 {
 ( -272 -6144 608 ) ( -272 -6143 608 ) ( -272 -6144 609 ) 128_grey_1 [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 1 1
-( -272 -6144 608 ) ( -272 -6144 609 ) ( -271 -6144 608 ) 128_grey_1 [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -272 -6160 608 ) ( -272 -6160 609 ) ( -271 -6160 608 ) 128_grey_1 [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
 ( -272 -6144 608 ) ( -271 -6144 608 ) ( -272 -6143 608 ) bw_brick5_4 [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
 ( 832 -6032 624 ) ( 832 -6031 624 ) ( 833 -6032 624 ) 128_grey_1 [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
 ( 832 -5056 624 ) ( 833 -5056 624 ) ( 832 -5056 625 ) q_brick1_1 [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1

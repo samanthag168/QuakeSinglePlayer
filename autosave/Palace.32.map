@@ -10309,14 +10309,35 @@
 // entity 188
 {
 "classname" "light"
-"origin" "8 88 72"
-"wait" "2"
-"delay" "3"
+"origin" "8 88 120"
+"wait" "3"
+"delay" "1"
 }
 // entity 189
 {
 "classname" "light"
-"origin" "440 88 72"
-"wait" "2"
-"delay" "3"
+"origin" "440 88 120"
+"wait" "3"
+"delay" "1"
+}
+// entity 190
+{
+"classname" "light"
+"origin" "232 88 120"
+"wait" "3"
+"delay" "1"
+}
+// entity 191
+{
+"classname" "light"
+"origin" "728 88 120"
+"wait" "3"
+"delay" "1"
+}
+// entity 192
+{
+"classname" "light"
+"origin" "728 -376 184"
+"wait" "3"
+"delay" "1"
 }

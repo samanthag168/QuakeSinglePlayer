@@ -10296,4 +10296,27 @@
 {
 "classname" "light_torch_small_walltorch"
 "origin" "-4 -3868 156"
+"wait" "3"
+"style" "5"
+}
+// entity 187
+{
+"classname" "light_torch_small_walltorch"
+"origin" "524 -3868 156"
+"wait" "3"
+"style" "5"
+}
+// entity 188
+{
+"classname" "light"
+"origin" "8 88 72"
+"wait" "2"
+"delay" "3"
+}
+// entity 189
+{
+"classname" "light"
+"origin" "440 88 72"
+"wait" "2"
+"delay" "3"
 }
