@@ -9816,13 +9816,13 @@
 // entity 109
 {
 "classname" "info_teleport_destination"
-"origin" "-1856 -2288 240"
+"origin" "-1856 -2428 240"
 "targetname" "tele3"
 }
 // entity 110
 {
 "classname" "info_teleport_destination"
-"origin" "-1792 -2112 240"
+"origin" "-1848 -1992 240"
 "targetname" "tele4"
 }
 // entity 111
