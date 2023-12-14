@@ -6,7 +6,6 @@
 "classname" "worldspawn"
 "_tb_def" "builtin:Quake.fgd"
 "wad" "C:/Users/407305/Downloads/quakedev/quake-leveldesign-starterkit-1.17.0/wads/prototype_1_3.wad;C:/Users/407305/Downloads/quakedev/quake-leveldesign-starterkit-1.17.0/wads/alice.wad;C:/Users/16308/Downloads/quakedev/quakedev/quake-leveldesign-starterkit-1.17.0/wads/prototype_1_3.wad;C:/Users/16308/Downloads/quakedev/quakedev/quake-leveldesign-starterkit-1.17.0/wads/alice.wad;C:/Users/16308/Downloads/quakedev/quakedev/quake-leveldesign-starterkit-1.17.0/wads/jf1.wad;C:/Users/16308/Downloads/quakedev/quakedev/quake-leveldesign-starterkit-1.17.0/wads/tiles.wad;C:/Users/16308/Downloads/quakedev/quakedev/quake-leveldesign-starterkit-1.17.0/wads/wizard_unused.wad"
-"targetname" "trigger"
 // brush 0
 {
 ( -48 -64 -32 ) ( -48 -63 -32 ) ( -48 -64 -31 ) grass02_1sh [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 0.75 1
@@ -8223,7 +8222,6 @@
 "origin" "96 -2160 -8"
 "angle" "180"
 "target" "hpp"
-"targetname" "hm2"
 }
 // entity 15
 {
@@ -8262,7 +8260,6 @@
 "origin" "288 -3232 40"
 "angle" "180"
 "target" "ps1"
-"targetname" "hm"
 }
 // entity 22
 {
@@ -8923,7 +8920,6 @@
 "classname" "monster_enforcer"
 "origin" "784 -5328 184"
 "angle" "270"
-"targetname" ""
 "target" "path1"
 }
 // entity 42
@@ -8931,7 +8927,6 @@
 "classname" "monster_army"
 "origin" "944 -6480 152"
 "angle" "180"
-"targetname" ""
 "target" "pc"
 }
 // entity 43
@@ -9013,7 +9008,6 @@
 "classname" "monster_knight"
 "origin" "2016 -7792 392"
 "angle" "180"
-"targetname" ""
 "target" "p13"
 }
 // entity 55
@@ -9320,7 +9314,6 @@
 {
 "classname" "item_key2"
 "origin" "1904 -7088 296"
-"targetname" "key2"
 "spawnflags" "0"
 }
 // entity 73
@@ -9359,6 +9352,7 @@
 {
 "classname" "func_button"
 "target" "key"
+"wait" "-1"
 // brush 0
 {
 ( 2108 -7294 446 ) ( 2108 -7293 446 ) ( 2108 -7294 447 ) bw_carpet1_2sh [ 0 -1 0 -18602.271 ] [ 0 0 -1 1102.2222 ] 0 0.2812543 0.28125
@@ -9407,7 +9401,6 @@
 "spawnflags" "16"
 "wait" "3"
 "angle" "0"
-"message" ""
 "sounds" "3"
 // brush 0
 {
@@ -9760,14 +9753,11 @@
 {
 "classname" "monster_knight"
 "origin" "-2208 -6496 552"
-"target" ""
-"targetname" "monster"
 }
 // entity 122
 {
 "classname" "monster_enforcer"
 "origin" "-2208 -6432 552"
-"targetname" "monster"
 }
 // entity 123
 {
@@ -9896,7 +9886,6 @@
 {
 "classname" "path_corner"
 "origin" "376 -2168 -24"
-"target" ""
 "targetname" "hpp2"
 }
 // entity 138
@@ -9910,7 +9899,7 @@
 {
 "classname" "path_corner"
 "origin" "1016 -6472 136"
-"target" ""
+"target" "pc"
 "targetname" "pc2"
 }
 // entity 140
@@ -9919,7 +9908,6 @@
 "health" "2"
 "lip" "2"
 "angle" "180"
-"targetname" ""
 "target" "door"
 // brush 0
 {
@@ -9975,9 +9963,8 @@
 // entity 143
 {
 "classname" "func_button"
-"targetname" ""
 "target" "prdoor"
-"wait" ""
+"wait" "1"
 "lip" "2"
 // brush 0
 {
@@ -10034,7 +10021,6 @@
 {
 "classname" "monster_hell_knight"
 "origin" "720 -7792 344"
-"target" ""
 "targetname" "me"
 "angle" "0"
 }
@@ -10145,7 +10131,6 @@
 {
 "classname" "func_door"
 "angle" "90"
-"target" ""
 "spawnflags" "8"
 // brush 0
 {
@@ -10160,7 +10145,7 @@
 // entity 164
 {
 "classname" "func_door_secret"
-"angle" ""
+"angle" "0"
 "wait" "-1"
 "targetname" "sdoor"
 // brush 0
@@ -10311,26 +10296,48 @@
 {
 "classname" "light_torch_small_walltorch"
 "origin" "-4 -3868 156"
-"wait" "2"
-"style" "11"
+"wait" "3"
+"style" "5"
 }
 // entity 187
 {
 "classname" "light_torch_small_walltorch"
-"origin" "-4 -3868 156"
-"spawnflags" "0"
-"style" "5"
+"origin" "524 -3868 156"
 "wait" "3"
+"style" "5"
 }
 // entity 188
 {
-"classname" "light_torch_small_walltorch"
-"origin" "540 -3868 156"
-"wait" "2"
-"style" "11"
+"classname" "light"
+"origin" "8 88 120"
+"wait" "3"
+"delay" "1"
 }
 // entity 189
 {
 "classname" "light"
-"origin" "24 88 152"
+"origin" "440 88 120"
+"wait" "3"
+"delay" "1"
+}
+// entity 190
+{
+"classname" "light"
+"origin" "232 88 120"
+"wait" "3"
+"delay" "1"
+}
+// entity 191
+{
+"classname" "light"
+"origin" "728 88 120"
+"wait" "3"
+"delay" "1"
+}
+// entity 192
+{
+"classname" "light"
+"origin" "728 -376 184"
+"wait" "3"
+"delay" "1"
 }
