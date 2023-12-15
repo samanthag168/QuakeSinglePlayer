@@ -12810,7 +12810,7 @@
 // entity 526
 {
 "classname" "light"
-"origin" "232 -1848 376"
+"origin" "232 -1848 392"
 "mangle" "-90 0 0"
 "wait" "2"
 "delay" "1"
